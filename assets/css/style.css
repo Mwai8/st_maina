@@ -1,0 +1,179 @@
+body{
+    font-family: 'Merriweather', serif;
+
+}
+/*top section styling*/
+.logo part{
+    display: flex;
+    flex-direction: row;
+}
+.top-bar img{
+    width: 100%!important;
+    height: auto;
+}
+.top-bar i{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.top-bar i:hover{
+    color: #f96f5d;
+    background-color: rgb(43, 220, 20);
+    color: #fff;
+    border: 2px solid #faf9f8;
+    /*border-radius: 50%;*/
+    border-top-left-radius: 50%;
+    border-bottom-right-radius:50%;
+    transition: .1s;
+}
+nav{
+    background-color: coral;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+ }
+nav a{
+    font-size: 20px;
+}
+nav li:hover{
+    background: linear-gradient(to bottom,rgb(102, 68, 255), #fff);
+}
+nav li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.rad{
+    border-radius: 40%;
+}
+/*slider style sheet*/
+.main-slider img{
+height: 70vh;
+}
+.main-slider .carousel-caption{
+    background-color: rgba(153, 116, 116, 0.349);
+}
+.main-slider .carousel-caption h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+.main-slider .carousel-caption p{
+    font-size: 24px;
+    font-weight: 300; 
+}
+/*program section*/
+.program{
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.program .card img{
+    height: 200px;
+    opacity: 6;
+
+}
+.program .card:hover img{
+    opacity: 1;
+}
+.program .card:hover .card-body{
+    background: linear-gradient(to right, rgb(176, 178, 180), #b8b4b4, #fff4);
+}
+.program .card:hover{
+    box-shadow: 36px 40px 38px -16px rgba(0,0,0,0.75);
+-webkit-box-shadow: 36px 40px 38px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: 36px 40px 38px -16px rgba(0,0,0,0.75);
+}
+
+.kev{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/WTB1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.btn.btn-square{
+    border-radius: 0px!important;
+    background: linear-gradient(to right, rgb(50, 75, 216), #6a7ff5);
+
+}
+.btn.btn-square:hover{
+    background: linear-gradient(to left, rgb(50, 75, 216), #6a7ff5);
+    transition: .5s;
+}
+
+.card-w{
+    margin-top: 55px;
+    background-color: #fff;
+}
+.card-rec{
+    background: linear-gradient(to right, rgb(43, 60, 155), #6077fc);
+    color: #fff;
+    /* height: 400px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-rec{
+    color: rgb(7, 7, 7);
+    background-color: #fff;
+}
+.btn.btn-square{
+    color: #fff;
+}
+.kev h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.cal{
+    background: linear-gradient(to right, rgb(47, 78, 252), #6077fc); 
+    margin-top: 20px;
+    color: #fff;  
+}
+.cal img{
+    border-radius: 60px;
+}
+.time{
+    margin-top: 20px;
+}
+.grey{
+    background-color: rgb(179, 179, 179);
+}
+
+.kev2{
+   /* padding-top: 100px;
+   padding-bottom: 100px; */min-height: 70vh;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bike5.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.final{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(197, 195, 195);
+}
+.final1{
+    background-color: rgb(15, 10, 20);
+}
+.con{
+    color: rgb(52, 52, 255);
+}
+.foot{
+    background-color: black;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+
